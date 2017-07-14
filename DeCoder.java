@@ -1,4 +1,3 @@
-package com.mjl.web.tools;
 
 import org.nutz.lang.Encoding;
 import org.nutz.lang.Lang;
@@ -25,8 +24,8 @@ public class DeCoder {
 
     /**
      * 解码为pcm格式
-     * @param silk 源silk文件,需要绝对路径!! 例:F:\zhuanma\vg2ub41omgipvrmur1fnssd3tq.silk
-     * @param pcm 目标pcm文件,需要绝对路径!! 例:F:\zhuanma\vg2ub41omgipvrmur1fnssd3tq.pcm
+     * @param silk 源silk文件,需要绝对路径
+     * @param pcm 目标pcm文件,需要绝对路径
      * @return
      */
     public static boolean getPcm(String silk,String pcm){
@@ -48,8 +47,8 @@ public class DeCoder {
 
     /***
      * 转码为wav格式
-     * @param pcm
-     * @param wav
+     * @param pcm 源pcm文件,需要绝对路径
+     * @param wav 目标wav文件,需要绝对路径
      * @return
      */
     public static boolean getWav(String pcm, String wav) {
@@ -67,8 +66,8 @@ public class DeCoder {
 
     /**
      * 转码为MP3格式
-     * @param pcm 源pcm文件,需要绝对路径!!  例:F:\zhuanma\vg2ub41omgipvrmur1fnssd3tq.pcm
-     * @param mp3 目标mp3文件,需要绝对路径!! 例:F:\zhuanma\vg2ub41omgipvrmur1fnssd3tq.mp3
+     * @param pcm 源pcm文件,需要绝对路径
+     * @param mp3 目标mp3文件,需要绝对路径
      * @return
      */
     public static boolean getMp3(String pcm,String mp3){
